@@ -2,7 +2,7 @@ PROJECT(log_c_sdk)
 
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)  
 
-set(CMAKE_VERSION 2.0.0)
+set(CMAKE_VERSION 2.0.2)
 
 # default C / CXX flags
 set(CMAKE_C_FLAGS " -g -ggdb -O0 -Wall -Werror -fpic -fPIC -D_LARGEFILE64_SOURCE")
