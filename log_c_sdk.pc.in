@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/usr
+exec_prefix=/usr
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/log_c_sdk
+
+Name: log_c_sdk
+Description: Aliyun log sdk
+Version: 2.0.2
+Libs: -L${libdir} -llog_c_sdk
+Libs.private: -ldl -lpthread 
+Cflags: -I${includedir}
