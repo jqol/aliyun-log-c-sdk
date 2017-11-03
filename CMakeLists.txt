@@ -115,6 +115,7 @@ INSTALL(FILES
   src/aos_util.h
   src/log_define.h
   src/log_util.h
+  src/log_auth.h
   src/log_api.h
   src/log_http_cont.h
   src/log_builder.h
