@@ -123,4 +123,7 @@ INSTALL(FILES
   src/log_logstores.pb-c.h
   DESTINATION include/log_c_sdk)
 
+INSTALL(FILES log_c_sdk.pc.in DESTINATION lib/pkgconfig RENAME log_c_sdk.pc)
+
+
 add_subdirectory(sample)
